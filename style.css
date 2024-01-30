@@ -5,7 +5,7 @@ html, body{
 body{
     margin: 0px;
     padding: 0px;
-    background: #FFFFFF;
+    background: #e7e1c7;
     font-family: 'Roboto';
     font-size: 12pt;
 }
@@ -44,31 +44,34 @@ header{
     text-align: center;
     height: 60px;
 }
- 
-/****************/   
-/* Styling Logo */
-/****************/
-#logo{
-    float: left;
-    padding: none;
-    margin: none;
-    height: 60px;
-    width: 30%;
+
+
+/* Styling Header Image Menu */
+#header-image-menu{
+    top: 10px;
+    position: relative;
 }
  
-#logo img{
-    width: 60%;
-    height: 100%;
-    float: left;
-    padding: 0px 0px;
-}    
+#header-image-menu img{
+    width: 100%;
+    margin: none;
+    padding: none;
+}
  
-/***************************/
+#image-text{
+    position: absolute;
+    top: 0%;
+    left: 49%;
+    font-family: 'Roboto';
+    color: #000;
+    transform: translate(-30%, -30%);
+    text-align: center;
+} 
+
 /* Styling Navigation Menu */
-/***************************/
 #menu{
-    float: right;
-    width: 70%;
+    float: none;
+    width: 62%;
     height: 100%;
     margin: none;
 }
