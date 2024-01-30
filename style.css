@@ -81,6 +81,9 @@ header{
     float: right;
     margin: none;
     background: #db8828;
+    border-left: 2px solid #080808;
+    border-right: 2px solid #080808;
+    border-bottom: 2px solid #080808;
 }
      
 #menu li{
