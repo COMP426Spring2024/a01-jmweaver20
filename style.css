@@ -53,9 +53,11 @@ header{
 }
  
 #header-image-menu img{
-    width: 100%;
-    margin: none;
-    padding: none;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
  
 #image-text{
