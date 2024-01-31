@@ -132,7 +132,10 @@ header{
     float: none;
     width: 62%;
     height: 100%;
-    margin-left: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
      
 #menu ul{
