@@ -87,6 +87,15 @@ header{
     width: 700px;
 }
 
+/*Styling Images header*/
+#arachne-images{
+    top: 10px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15pt;
+    margin-top: 10px;
+}
+
 /*Styling Return - Home*/
 #return-home{
     text-align: center;
