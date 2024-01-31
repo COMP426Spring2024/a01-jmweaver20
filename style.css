@@ -1,0 +1,176 @@
+html, body{
+    height: 100%;
+}
+     
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #e7e1c7;
+    font-family: 'Roboto';
+    font-size: 12pt;
+}
+         
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+     
+p, ol, ul{
+    margin-top: 0;
+}
+ 
+p {
+    line-height: 180%;
+}
+ 
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+     
+.container{    
+    margin: 0px auto;
+    width: 1200px;
+}
+
+header{
+     
+    overflow: hidden;
+}
+ 
+#top-header{
+         
+    text-align: center;
+    height: 60px;
+}
+
+/*Styling About Header */
+#about{
+    top: 10px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15pt;
+    margin-top: 10px;
+}
+
+/*Styling About Content*/
+#about-story{
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Stylig FAQ header*/
+#faq{
+    top: 10px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15pt;
+    margin-top: 10px;
+}
+
+/*Styling FAQ table*/
+#faq-table tr:nth-child(even) {
+    background-color: #f2dca0;
+}
+
+#faq-table th, #faq-table td{
+    border: 1px solid;
+}
+#faq-table{
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+/*Styling Images header*/
+#arachne-images{
+    top: 10px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15pt;
+    margin-top: 10px;
+}
+
+/*Styling Return - Home*/
+#return-home{
+    text-align: center;
+    font-size: 15pt;
+    font-family: 'Roboto';
+}
+
+
+/* Styling Header Image Menu */
+#header-image-menu{
+    top: 10px;
+    position: relative;
+}
+
+#header-image-menu img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ 
+#image-text{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    font-family: 'Roboto';
+    color: #000;
+    transform: translate(-30%, -30%);
+    text-align: center;
+} 
+
+/* Styling Navigation Menu */
+#menu{
+    float: none;
+    width: 62%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+     
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+    background: #db8828;
+    border-left: 2px solid #080808;
+    border-right: 2px solid #080808;
+    border-bottom: 2px solid #080808;
+}
+     
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+     
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+     
+#menu li a{
+         
+    color: #161414;
+}
+     
+#menu li:hover a, #menu li span{
+    background: #706b6b;
+    color: #151616;
+    border-left: 1px solid #080808;
+    text-decoration: none;
+}
