@@ -51,15 +51,34 @@ header{
     text-align: center;
     font-family: 'Roboto';
     font-size: 15pt;
+    margin-top: 10px;
 }
 
 /*Styling About Content*/
-#about{
+#about-story{
     text-align: center;
     font-size: 13pt;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+/*Stylig FAQ header*/
+#faq{
+    top: 10px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15pt;
+    margin-top: 10px;
+}
+
+/*Styling FAQ table*/
+#faq-table tr:nth-child(even) {
+    background-color: #f2dca0;
+}
+
+#faq-table th, #faq-table td{
+    border: 1px solid;
 }
 
 /*Styling Return - Home*/
