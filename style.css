@@ -45,16 +45,39 @@ header{
     height: 60px;
 }
 
+/*Styling About Header */
+#about-header{
+    top: 10px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15pt;
+}
+
+/*Styling About Content*/
+#about-story{
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Styling Return - Home*/
+#return-home{
+    text-align: center;
+    font-size: 15pt;
+    font-family: 'Roboto';
+}
+
 
 /* Styling Header Image Menu */
 #header-image-menu{
     top: 10px;
     position: relative;
 }
- 
+
 #header-image-menu img{
     display: block;
-    width: 70%;
     margin-left: auto;
     margin-right: auto;
 
