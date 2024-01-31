@@ -111,7 +111,7 @@ header{
 #image-text{
     position: absolute;
     top: 0%;
-    left: 49%;
+    left: 50%;
     font-family: 'Roboto';
     color: #000;
     transform: translate(-30%, -30%);
@@ -123,6 +123,7 @@ header{
     float: none;
     width: 62%;
     height: 100%;
+    margin-left: 60px;
 }
      
 #menu ul{
