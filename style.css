@@ -46,7 +46,7 @@ header{
 }
 
 /*Styling About Header */
-#about-header{
+#about{
     top: 10px;
     text-align: center;
     font-family: 'Roboto';
@@ -54,7 +54,7 @@ header{
 }
 
 /*Styling About Content*/
-#about-story{
+#about{
     text-align: center;
     font-size: 13pt;
     margin-top: 20px;
