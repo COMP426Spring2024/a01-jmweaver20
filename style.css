@@ -130,12 +130,11 @@ header{
 /*Styling select dropdown */
 #image-selector {
     min-width: 300px;
-  }
+}
   
-  select {
+select {
     appearance: none;
     -webkit-appearance: none;
-    /* other styles for aesthetics */
     width: 70%;
     font-size: 1.0rem;
     padding: 0.675em 6em 0.675em 1em;
@@ -146,7 +145,7 @@ header{
     cursor: pointer;
     display: block;
     margin: 0 auto;
-  }
+}
 
 /* Styling Navigation Menu */
 #menu{
