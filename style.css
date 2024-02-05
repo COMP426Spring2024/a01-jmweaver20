@@ -100,7 +100,7 @@ header{
 #return-home{
     text-align: center;
     font-size: 15pt;
-    font-family: 'Roboto';
+    font-family: 'Times New Roman';
 }
 
 
@@ -114,7 +114,6 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
  
 #image-text{
@@ -125,7 +124,55 @@ header{
     color: #000;
     transform: translate(-30%, -30%);
     text-align: center;
-} 
+}
+
+/*Styling select dropdown */
+#image-selector {
+    min-width: 300px;
+}
+  
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 70%;
+    font-size: 1.0rem;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #f4e5af;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Styling images on image page*/
+#image1 img{
+    display: block;
+    height: 300px;
+    width: 355px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#image2 img{
+    display: block;
+    height: 300px;
+    width: 355px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#image3 img{
+    display: block;
+    height: 300px;
+    width: 355px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
 
 /* Styling Navigation Menu */
 #menu{
@@ -141,7 +188,6 @@ header{
 #menu ul{
     text-align: center;
     float: right;
-    margin: none;
     background: #db8828;
     border-left: 2px solid #080808;
     border-right: 2px solid #080808;
@@ -150,8 +196,6 @@ header{
      
 #menu li{
     display: inline-block;
-    padding: none;
-    margin: none;
 }
      
 #menu li a, #menu li span{
